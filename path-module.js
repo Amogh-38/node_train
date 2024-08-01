@@ -12,4 +12,3 @@ console.log(base)
 const absolute = path.resolve(__dirname, 'git-reference', 'node-express-course', '11-auth-worlflow')// provides the
 // absolute path 
 console.log(absolute)
-

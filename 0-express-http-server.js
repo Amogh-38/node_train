@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
     console.log(req.url)
     // home page
     if(url === '/') {
-        res.writeHead(200, {'content-type' : 'text/html'})//statue code, status messege(optional){}, headers(optional) ex-{'content-type'}
+        res.writeHead(200, {'content-type' : 'text/html'})//statue code, status messege(optional){}, headers() ex-{'content-type'}
         res.write(homepage)
         res.end()
     }
